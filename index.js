@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 config();
 db.connect((err) => {
-  if (err) throw err;
+//   if (err) throw err;
   console.log('Connected to MySQL database');
 });
 
